@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="Style/Tic-Tac-Toe.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="game">
+        
+        <div class="title"><span class="span">X O</span> Game</div>
+        
+        <div class="square" id="00" ></div>
+        <div class="square" id="01" ></div>
+        <div class="square" id="02" ></div>
+        
+        <div class="square" id="10" ></div>
+        <div class="square" id="11"></div>
+        <div class="square" id="12" ></div>
+        
+        <div class="square" id="20" ></div>
+        <div class="square" id="21" ></div>
+        <div class="square" id="22" ></div>
+        <label for="GetMove">Move</label>
+            <input type="text" id="GetMove" name="GetMove" placeholder="Enter Move">
+            <button id="moveChess" >submit</button>
+            <div id="error" class="alert">
+                <span  class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                This input is not valid.
+              </div>
+              <h1 id="po">The player O</h1>
+        <h1 id="px">The player X</h1>
+        
+    </div>
+    <script type="module" src="Scripts/Tic-Tac-Toe.js"></script>
+</body>
+</html>

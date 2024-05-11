@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Style/Chess.css" rel="stylesheet" />
+</head>
+<body>
+    <table class="table">
+        <tr>
+            <td class="td">a</td>
+            <td class="td">b</td>
+            <td class="td">c</td>
+            <td class="td">d</td>
+            <td class="td">e</td>
+            <td class="td">f</td>
+            <td class="td">g</td>
+            <td class="td">h</td>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr class="tr2">
+            <td>8</td>
+        </tr>
+        <tr class="tr2">
+            <td>7</td>
+        </tr>
+        <tr class="tr2">
+            <td>6</td>
+        </tr>
+        <tr class="tr2">
+            <td>5</td>
+        </tr>
+        <tr class="tr2">
+            <td>4</td>
+        </tr>
+        <tr class="tr2">
+            <td>3</td>
+        </tr>
+        <tr class="tr2">
+            <td>2</td>
+        </tr>
+        <tr class="tr2">
+            <td>1</td>
+        </tr>
+    </table>
+    <div id = "chessboard"class="chessboard">
+        <!-- 1st -->
+        <div class="white" id="8a">♜</div>
+        <div class="black" id="8b">♞</div>
+        <div class="white" id="8c">♝</div>
+        <div class="black" id="8d">♛</div>
+        <div class="white" id="8e">♚</div>
+        <div class="black" id="8f">♝</div>
+        <div class="white" id="8g">♞</div>
+        <div class="black" id="8h">♜</div>
+        <!-- 2nd -->
+        <div class="black" id="7a">♟</div>
+        <div class="white" id="7b">♟</div>
+        <div class="black" id="7c">♟</div>
+        <div class="white" id="7d">♟</div>
+        <div class="black" id="7e">♟</div>
+        <div class="white" id="7f">♟</div>
+        <div class="black" id="7g">♟</div>
+        <div class="white" id="7h">♟</div>
+        <!-- 3th -->
+        <div class="white" id="6a"></div>
+        <div class="black" id="6b"></div>
+        <div class="white" id="6c"></div>
+        <div class="black" id="6d"></div>
+        <div class="white" id="6e"></div>
+        <div class="black" id="6f"></div>
+        <div class="white" id="6g"></div>
+        <div class="black" id="6h"></div>
+        <!-- 4st -->
+        <div class="black" id="5a"></div>
+        <div class="white" id="5b"></div>
+        <div class="black" id="5c"></div>
+        <div class="white" id="5d"></div>
+        <div class="black" id="5e"></div>
+        <div class="white" id="5f"></div>
+        <div class="black" id="5g"></div>
+        <div class="white" id="5h"></div>
+        <!-- 5th -->
+        <div class="white" id="4a"></div>
+        <div class="black" id="4b"></div>
+        <div class="white" id="4c"></div>
+        <div class="black" id="4d"></div>
+        <div class="white" id="4e"></div>
+        <div class="black" id="4f"></div>
+        <div class="white" id="4g"></div>
+        <div class="black" id="4h"></div>
+        <!-- 6th -->
+        <div class="black" id="3a"></div>
+        <div class="white" id="3b"></div>
+        <div class="black" id="3c"></div>
+        <div class="white" id="3d"></div>
+        <div class="black" id="3e"></div>
+        <div class="white" id="3f"></div>
+        <div class="black" id="3g"></div>
+        <div class="white" id="3h"></div>
+        <!-- 7th -->
+        <div class="white" id="2a">♙</div>
+        <div class="black" id="2b">♙</div>
+        <div class="white" id="2c">♙</div>
+        <div class="black" id="2d">♙</div>
+        <div class="white" id="2e">♙</div>
+        <div class="black" id="2f">♙</div>
+        <div class="white" id="2g">♙</div>
+        <div class="black" id="2h">♙</div>
+        <!-- 8th -->
+        <div class="black" id="1a">♖</div>
+        <div class="white" id="1b">♘</div>
+        <div class="black" id="1c">♗</div>
+        <div class="white" id="1d">♕</div>
+        <div class="black" id="1e">♔</div>
+        <div class="white" id="1f">♗</div>
+        <div class="black" id="1g">♘</div>
+        <div class="white" id="1h">♖</div>
+        <div>
+            <label for="GetMove">Move</label>
+            <input type="text" id="GetMove" name="GetMove" placeholder="Enter Move">
+            <button id="moveChess" >submit</button>
+        </div>
+        </div>
+        
+        
+    </body>
+    <script type="module" src="Scripts/Chess.js"></script>
+</html>

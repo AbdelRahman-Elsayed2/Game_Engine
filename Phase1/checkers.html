@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Style/checkers.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <table class="table">
+        
+        <tr>
+            <td class="td">0</td>
+            <td class="td">1</td>
+            <td class="td">2</td>
+            <td class="td">3</td>
+            <td class="td">4</td>
+            <td class="td">5</td>
+            <td class="td">6</td>
+            <td class="td">7</td>
+        </tr>
+    </table>
+    
+    <table class="table2">
+        <tr class="tr2">
+            <td>0</td>
+        </tr>
+        <tr class="tr2">
+            <td>1</td>
+        </tr>
+        <tr class="tr2">
+            <td>2</td>
+        </tr>
+        <tr class="tr2">
+            <td>3</td>
+        </tr>
+        <tr class="tr2">
+            <td>4</td>
+        </tr>
+        <tr class="tr2">
+            <td>5</td>
+        </tr>
+        <tr class="tr2">
+            <td>6</td>
+        </tr>
+        <tr class="tr2">
+            <td>7</td>
+        </tr>
+    </table>
+    <div id = "chessboard"class="chessboard">
+        <!-- 1st -->
+        <div class="white" id="00"></div>
+        <div class="black" id="01"><span class="dot" id="dot"></span></div>
+        <div class="white" id="02"></div>
+        <div class="black" id="03"><span class="dot" id="dot"></span></div>
+        <div class="white" id="04"></div>
+        <div class="black" id="05"><span class="dot" id="dot"></span></div>
+        <div class="white" id="06"></div>
+        <div class="black" id="07"><span class="dot" id="dot"></span></div>
+        <!-- 2nd -->
+        <div class="black" id="10"><span class="dot" id="dot"></span></div>
+        <div class="white" id="11"></div>
+        <div class="black" id="12"><span class="dot" id="dot"></span></div>
+        <div class="white" id="13"></div>
+        <div class="black" id="14"><span class="dot" id="dot"></span></div>
+        <div class="white" id="15"></div>
+        <div class="black" id="16"><span class="dot" id="dot"></span></div>
+        <div class="white" id="17"></div>
+        <!-- 3th -->
+        <div class="white" id="20"></div>
+        <div class="black" id="21"><span class="dot" id="dot"></span></div>
+        <div class="white" id="22"></div>
+        <div class="black" id="23"><span class="dot" id="dot"></span></div>
+        <div class="white" id="24"></div>
+        <div class="black" id="25"><span class="dot" id="dot"></span></div>
+        <div class="white" id="26"></div>
+        <div class="black" id="27"><span class="dot" id="dot"></span></div>
+        <!-- 4st -->
+        <div class="black" id="30"></div>
+        <div class="white" id="31"></div>
+        <div class="black" id="32"></div>
+        <div class="white" id="33"></div>
+        <div class="black" id="34"></div>
+        <div class="white" id="35"></div>
+        <div class="black" id="36"></div>
+        <div class="white" id="37"></div>
+        <!-- 5th -->
+        <div class="white" id="40"></div>
+        <div class="black" id="41"></div>
+        <div class="white" id="42"></div>
+        <div class="black" id="43"></div>
+        <div class="white" id="44"></div>
+        <div class="black" id="45"></div>
+        <div class="white" id="46"></div>
+        <div class="black" id="47"></div>
+        <!-- 6th -->
+        <div class="black" id="50"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="51"></div>
+        <div class="black" id="52"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="53"></div>
+        <div class="black" id="54"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="55"></div>
+        <div class="black" id="56"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="57"></div>
+        <!-- 7th -->
+        <div class="white" id="60"></div>
+        <div class="black" id="61"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="62"></div>
+        <div class="black" id="63"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="64"></div>
+        <div class="black" id="65"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="66"></div>
+        <div class="black" id="67"><span class="dot2" id="dot2"></span></div>
+        <!-- 8th -->
+        <div class="black" id="70"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="71"></div>
+        <div class="black" id="72"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="73"></div>
+        <div class="black" id="74"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="75"></div>
+        <div class="black" id="76"><span class="dot2" id="dot2"></span></div>
+        <div class="white" id="77"></div>
+        
+            <label for="GetMove">Move</label>
+            <input type="text" id="GetMove" name="GetMove" placeholder="Enter Move">
+            <button id="moveChess" >submit</button>
+            <div id="error" class="alert">
+                <span  class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                This input is not valid.
+              </div>
+              <h1 id="pr">The player red</h1>
+        <h1 id="pl">The player black</h1>
+    </div>
+     
+    </div>     
+    </body>
+    <script type="module" src="Scripts/checkers.js"></script>
+</html>

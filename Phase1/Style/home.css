@@ -1,0 +1,35 @@
+.main{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    margin: auto;
+    font-weight: 500;
+}
+.title{
+    background: #a3cfa4;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    font-size: 30px;
+    border: 2px solid #4CAF50;
+}
+.label{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    font-size: 20px;
+    float: left;
+}
+.button{
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50; /* Green */
+    width: 100px;
+    height: 40px;
+    float:inline-start;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
